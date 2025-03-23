@@ -1,0 +1,21 @@
+{
+    "name": "Python + R + JAGS",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "REditorSupport.r"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/bin/python3"
+            }
+        }
+    },
+    "postCreateCommand": "sudo bash .devcontainer/setup.sh",
+    "remoteUser": "vscode"
+} 

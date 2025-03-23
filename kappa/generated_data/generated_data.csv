@@ -1,0 +1,5 @@
+"category","count","prob"
+"Both One",4877,0.495
+"Obj One, Surr Zero",50,0.005
+"Obj Zero, Surr One",55,0.005
+"Both Zero",5018,0.495
