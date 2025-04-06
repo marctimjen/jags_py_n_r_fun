@@ -22,4 +22,5 @@ USER $USERNAME
 WORKDIR /home/$USERNAME
 
 # Set the default shell to bash
-SHELL ["/bin/bash", "-c"] 
+RUN apt-get update && apt-get install -y zsh
+SHELL ["/bin/zsh", "-c"]
